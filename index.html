@@ -14,57 +14,141 @@
         <meta name="viewport" content="width=device-width">
 
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700,900,300italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="assets/css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/css/style.css">
 
         <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
 
     <body>
-        <header id="site-header" role="banner">
+        <header id="site-header" role="banner" data-type="background" data-speed="20" data-offsetY="0">
             <div class="header-top">
-                <h1 id="site-logo"><a href="/" class="ir">Ronik &mdash; Design &amp; Development</a></h1>
+                <h1 id="site-logo"><a href="#" class="ir">Ronik &mdash; Design &amp; Development</a></h1>
 
                 <nav id="site-nav" role="navigation">
                     <ul>
                         <li><a href="#about" tabindex="-1">About</a></li>
-                        <li><a href="#services" tabindex="-1">Services</a></li>
-                        <li><a href="#work" tabindex="-1">Work</a></li>
-                        <li><a href="blog" tabindex="-1">Blog</a></li>
+						<li><a href="#work" tabindex="-1">Work</a></li>
+						<li><a href="#services" tabindex="-1">Clients</a></li>
                         <li><a href="#contact" tabindex="-1">Contact</a></li>
+						<li><a href="blog" tabindex="-1">Blog</a></li>
                     </ul>
                 </nav>
             </div>
 
-            <div class
-            <h3>We are</h3>
-            <h2>Makers.</h2>
-
-            <p class="intro-description">Bacon ipsum dolor sit amet fatback chuck pork belly, hamburger shoulder pork loin andouille beef capicola boudin drumstick jowl cow tri-tip pancetta. Ball tip corned beef pork loin jerky, doner filet mignon pork belly shank hamburger meatloaf kielbasa ribeye boudin.</p>
-
-        </header>
+            <div class="intro-text" data-type="fade" data-fadeLength="100">
+                <h3>We are</h3>
+                <h2>Makers.</h2>
+            </div>
+		</header>
 
         <div id="container" role="main">
+			<!-- About -->
+			<section id="about" data-type="background" data-speed="6" data-offsetY="0">
+				<h1 class="section-header">Who we are</h1>
+				<p class="about-description bracketed"><strong>Ronik</strong> is a digital studio founded by a group of creative thinkers and makers. We like to try new things. We believe in smart design and progressive technologies. We work closely with forward thinking brands to create engaging user experiences starting with strategy all the way through to development.</p>
+
+				<div class="people">
+					<div class="profile nicole" data-type="sprite" data-offsetY="250" data-speed="4">
+						<img src="assets/img/portrait-nicole.png" alt="Nicole Barth -- Designer" class="portrait nicole" />
+						<h2 class="person-name">Nicole Barth <span class="job-title">Creative Director</span></h2>
+
+						<p>Nicole is a versatile designer with an acute focus on typography and motion graphics. Her unique skills and wide range of design experience add a fundamental layer to creating captivating products.</p>
+					</div>
+
+					<div class="profile roberto" data-type="sprite" data-offsetY="250" data-speed="6">
+						<img src="assets/img/portrait-roberto.png" alt="Roberto Rodriguez -- Designer" class="portrait roberto" />
+						<h2 class="person-name">Roberto Rodriquez <span class="job-title">Creative Director</span></h2>
+
+						<p>Roberto's extensive skills and experience touch all areas of design and technology. As a jack-of-all trades designer, he is able to transform concepts into large scale products. His eagerness to provoke innovation and creative solutions is a foundation for all projects.</p>
+					</div>
+
+					<div class="profile mark" data-type="sprite" data-offsetY="250" data-speed="8">
+						<img src="assets/img/portrait-mark.png" alt="Mark Catalano -- Developer" class="portrait mark" />
+						<h2 class="person-name">Mark Catalano <span class="job-title">Developer</span></h2>
+
+						<p>Mark is a technologist with a broad background in user experience and front-end development. His unique talent is essential in guiding design implementation and ensuring projects are always crafted using progressive technologies.</p>
+
+					</div>
+				</div>
+			</section>
+			<!-- / About -->
+
             <!-- Work -->
             <section id="work">
-                <div id="featured-work">
-                    <!--
-                    Large gallery of 3-5 of our best projects
-                    -->
-                </div>
+				<h1 class="section-header">Some of our work</h1>
 
-                <div id="other-work">
-                    <!--
-                    Thumbnails with a bit of info and lightbox gallery (?)
-                    -->
-                </div>
+				<div class="gallery">
+					<ul>
+						<li>
+							<img src="http://lorempixel.com/output/abstract-q-c-600-400-4.jpg" alt="" />
+							<span class="open"></span>
+
+							<div class="detail">
+								<h3 class="client">Client Name</h3>
+								<h4 class="project">Homepage Redesign</h4>
+							</div>
+						</li><li>
+							<img src="http://lorempixel.com/output/abstract-q-c-600-400-4.jpg" alt="" />
+							<span class="open"></span>
+
+							<div class="detail">
+								<h3 class="client">Client Name</h3>
+								<h4 class="project">Homepage Redesign</h4>
+							</div>
+						</li><li>
+							<img src="http://lorempixel.com/output/abstract-q-c-600-400-4.jpg" alt="" />
+							<span class="open"></span>
+
+							<div class="detail">
+								<h3 class="client">Client Name</h3>
+								<h4 class="project">Homepage Redesign</h4>
+							</div>
+						</li><li>
+							<img src="http://lorempixel.com/output/abstract-q-c-600-400-4.jpg" alt="" />
+							<span class="open"></span>
+
+							<div class="detail">
+								<h3 class="client">Client Name</h3>
+								<h4 class="project">Homepage Redesign</h4>
+							</div>
+						</li><li>
+							<img src="http://lorempixel.com/output/abstract-q-c-600-400-4.jpg" alt="" />
+							<span class="open"></span>
+
+							<div class="detail">
+								<h3 class="client">Client Name</h3>
+								<h4 class="project">Homepage Redesign</h4>
+							</div>
+						</li><li>
+							<img src="http://lorempixel.com/output/abstract-q-c-600-400-4.jpg" alt="" />
+							<span class="open"></span>
+
+							<div class="detail">
+								<h3 class="client">Client Name</h3>
+								<h4 class="project">Homepage Redesign</h4>
+							</div>
+						</li><li>
+							<img src="http://lorempixel.com/output/abstract-q-c-600-400-4.jpg" alt="" />
+							<span class="open"></span>
+
+							<div class="detail">
+								<h3 class="client">Client Name</h3>
+								<h4 class="project">Homepage Redesign</h4>
+							</div>
+						</li><li>
+							<img src="http://lorempixel.com/output/abstract-q-c-600-400-4.jpg" alt="" />
+							<span class="open"></span>
+
+							<div class="detail">
+								<h3 class="client">Client Name</h3>
+								<h4 class="project">Homepage Redesign</h4>
+							</div>
+						</li>
+					</ul>
+				</div>
             </section>
             <!-- / Work -->
-
-            <!-- About -->
-            <section id="about">
-
-            </section>
-            <!-- / About -->
 
             <!-- Services -->
             <section id="services">
@@ -93,7 +177,7 @@
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
